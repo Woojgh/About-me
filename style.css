@@ -1,0 +1,69 @@
+h1{
+  color: cornsilk;
+  background-color: maroon;
+  text-align: center;
+  width:1000px;
+  font-size: 40px;
+
+}
+
+body{
+  background: url("https://scontent.xx.fbcdn.net/v/t1.0-9/16002938_1170578303061075_4739202333470628086_n.jpg?oh=ceacc681550261a954b8c9a59463a3a1&oe=592D6E75");
+  background-repeat: repeat;
+  width:1000px;
+  background-position: center;
+
+
+}
+h2{
+  background-color: maroon;
+  color: cornsilk;
+  font-style: bold;
+}
+
+.box{
+  margin-left: 330px;
+
+}
+
+.sectiontitle{
+  text-align: center;
+  width:1000px;
+}
+
+
+.right{
+  position:absolute;
+  right: 0;
+  width: 500px;
+  padding: 10px;
+  text-align: right;
+
+
+}
+
+.left{
+  position:absolute;
+  left: 0;
+  width:33%;
+  padding:10px;
+
+}
+.sectionparent{
+  width:1000px;
+  height:300px;
+  position:relative;
+
+}
+.section1{
+  text-align: center;
+  color:cornsilk;
+  background-color: maroon;
+  background-position: center;
+  height: 250px;
+  width: 1050px;
+}
+.inline{
+  display: inline-block;
+}
+.awesome-picture {text-align: center; margin-left: 16em; border-radius : 50%;}
