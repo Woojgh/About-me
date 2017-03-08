@@ -1,4 +1,11 @@
-h1{
+p{
+  text: 20px;
+ color: white;
+ background-color: rgba(76, 60, 90, 0.6);
+ text-indent: 30px;
+ border-radius: 25px;
+}
+h4{
   color: cornsilk;
   background-color: maroon;
   text-align: center;
@@ -8,7 +15,7 @@ h1{
 }
 
 body{
-  background: url("https://scontent.xx.fbcdn.net/v/t1.0-9/16002938_1170578303061075_4739202333470628086_n.jpg?oh=ceacc681550261a954b8c9a59463a3a1&oe=592D6E75");
+  background: url("https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/17201439_1216006078518297_6392763934826693892_n.jpg?oh=f5701773af4aa97b2620a22db353c0e0&oe=596C0C23");
   background-repeat: repeat;
   width:1000px;
   background-position: center;
@@ -57,11 +64,13 @@ h2{
 }
 .section1{
   text-align: center;
-  color:cornsilk;
-  background-color: maroon;
+  color: cornsilk;
+  background-color: #002045;
   background-position: center;
-  height: 250px;
-  width: 1050px;
+  height: 86px;
+  width: 750px;
+  margin: auto;
+  border-radius: 25px;
 }
 .inline{
   display: inline-block;
