@@ -1,4 +1,4 @@
-
+'use strict';
 //I need to make a five yes or no question game.
 var blueQuestion = prompt('Did you notce what color of blue was mentioed in the Bio?')
 if (blueQuestion.toLowerCase() === 'yes' || blueQuestion.toLowerCase() === 'y') {
@@ -44,7 +44,7 @@ else {
   alert('ok.... seriously..... how...can.. you ... not ....answer YES OR NO!!!!!!!!! MALFUNCTION!!!!')
 };
 
-var blueQuestion = prompt('Did you notce what color of blue was mentioed in the Bio?')
+var Question = prompt('Did you notce what color of blue was mentioed in the Bio?')
 if (blueQuestion.toLowerCase() === 'yes' || blueQuestion.toLowerCase() === 'y') {
   alert('That\'s right! Colbalt was the color of James\' truck! You deserve MHANY KITTEHS!' )
 }
