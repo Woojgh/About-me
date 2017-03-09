@@ -112,11 +112,11 @@ var numberTries = 0;
 while(numberTries < 4) {
   var userNumber = prompt('I have a random question for you, Writer. How many grapefruits did I bare hand slice to perfection for my DAILY dose of VITAMIN C?! HURRY!!!!!!!!!');
 
-  if(userNumber === 1337) {
+  if(userNumber == 1337) {
     alert('correctAnswer');
     console.log('correctAnswer');
     userScore++;
-    numberGame = false;
+    break;
   }
   else if(userNumber < 400) {
     alert('wayTooLow');
@@ -139,3 +139,27 @@ while(numberTries < 4) {
     numberTries++;
   }
 }
+
+/*
+As a developer, I want to add a seventh question to my guessing game that has multiple possible correct answers that are stored in an array. For instance, "Can you guess a state that I have lived in besides Washington?", so that even more of my programming skills are showcased. For now, I will structure this question so that the user has six tries to get a single correct answer, and upon using up those tries OR getting a correct answer, displays a message to the user indicating all of the possible correct answers.
+*/
+
+var scaredGame = true;
+var scaredCorrectAnswer = 'Nice! You got one! James is definetly scared of ';
+var scaredTries = 0;
+ while(scaredTries < 6) {
+   var scaredPrompt = prompt('Can you think of one thing that James is scared of?');
+
+   if(scaredPrompt.toLowerCase() == 'clowns' || 'clown' || 'the dark' || 'dark' || 'bees') {
+     alert(scaredCorrectAnswer + scaredPrompt + '.');
+     console.log(scaredCorrectAnswer + scaredPrompt + '.');
+     userScore++;
+     break;
+   }
+   else {
+     scaredTries++;
+   }
+
+ }
+
+ console.log('The user got ' + userScore + ' out of 7.');
