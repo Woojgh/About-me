@@ -107,9 +107,11 @@ var wayTooLow = 'You are WAAAAAAAAAAAAAAAY t00 low!';
 var gettingCloser = 'Y0u are ge77ing cl0ser!';
 var tooHigh = 'Y0ur answ3r is t00 high!'
 var soCLose = 'Y0u sir ar3 s9 v3ry cl0s3!!!!!';
-var userNumber = prompt('I have a random question for you, Writer. How many grapefruits did I bare hand slice to perfection for my DAILY dose of VITAMIN C?! HURRY!!!!!!!!!');
 var numberTries = 0;
-while(numberTries > 4) {
+
+while(numberTries < 4) {
+  var userNumber = prompt('I have a random question for you, Writer. How many grapefruits did I bare hand slice to perfection for my DAILY dose of VITAMIN C?! HURRY!!!!!!!!!');
+
   if(userNumber === 1337) {
     alert('correctAnswer');
     console.log('correctAnswer');
@@ -119,17 +121,21 @@ while(numberTries > 4) {
   else if(userNumber < 400) {
     alert('wayTooLow');
     console.log('wayTooLow');
+    numberTries++;
   }
   else if(userNumber < 800) {
     alert('gettingCloser');
     console.log('gettingCloser');
+    numberTries++;
   }
   else if(userNumber < 1000) {
     alert('soCLose');
     console.log('soCLose');
+    numberTries++;
   }
   else if(userNumber > 1337) {
     alert('tooHigh');
     console.log('tooHigh');
+    numberTries++;
   }
 }
