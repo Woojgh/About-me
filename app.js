@@ -1,5 +1,6 @@
 'use strict';
 //I need to make a five yes or no question game.
+
 function colorCobalt () {
   var userScore = 0;
   var cobaltQuestionYes = 'That\'s right! Colbalt was the color of James\' truck! You deserve MHANY KITTEHS!';
@@ -101,7 +102,6 @@ function christianQuestion() {
   }
 }
 christianQuestion();
-
 /*
 As a developer, I want to add a sixth question to my guessing game that takes numeric input by prompting a user to guess a number (for instance, "What is my favorite number?" or "How many Pokémon did I catch yesterday?"), and indicates to the user whether the guess is 'too high' or 'too low', and gives the user exactly four opportunities to get the correct answer, so that my fancy programming skills are showcased.
 */
