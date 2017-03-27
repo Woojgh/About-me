@@ -1,8 +1,7 @@
-'use strict';
-//I need to make a five yes or no question game.
+'use strict'
 
+var userScore = 0;
 function colorCobalt () {
-  var userScore = 0;
   var cobaltQuestionYes = 'That\'s right! Colbalt was the color of James\' truck! You deserve MHANY KITTEHS!';
   var cobaltQuestionNo = 'Well.... I guess if you remembered that the truck was blue we can let it slide.';
   var blueQuestion = prompt('Did you notce what color of blue was mentioned in the Bio?');
@@ -118,29 +117,29 @@ function guessingGame() {
     var userNumber = prompt('I have a random question for you, Writer. How many grapefruits did I bare hand slice to perfection for my DAILY dose of VITAMIN C?! HURRY!!!!!!!!!');
 
     if(userNumber == 1337) {
-      alert('correctAnswer');
-      console.log('correctAnswer');
+      alert(correctAnswer);
+      console.log(correctAnswer);
       userScore++;
       break;
     }
     else if(userNumber < 400) {
-      alert('wayTooLow');
-      console.log('wayTooLow');
+      alert(wayTooLow);
+      console.log(wayTooLow);
       numberTries++;
     }
     else if(userNumber < 800) {
-      alert('gettingCloser');
-      console.log('gettingCloser');
+      alert(gettingCloser);
+      console.log(gettingCloser);
       numberTries++;
     }
     else if(userNumber < 1000) {
-      alert('soCLose');
-      console.log('soCLose');
+      alert(soCLose);
+      console.log(soCLose);
       numberTries++;
     }
     else if(userNumber > 1337) {
-      alert('tooHigh');
-      console.log('tooHigh');
+      alert(tooHigh);
+      console.log(tooHigh);
       numberTries++;
     }
   }
@@ -156,7 +155,7 @@ function scareGame () {
   while(scaredTries < 6) {
     var scaredPrompt = prompt('Can you think of one thing that James is scared of?');
 
-    if(scaredPrompt.toLowerCase() == 'clowns' || 'clown' || 'the dark' || 'dark' || 'bees') {
+    if(scaredPrompt.toLowerCase() === 'clowns' || scaredPrompt.toLowerCase() === 'clown' || scaredPrompt.toLowerCase() === 'the dark' || scaredPrompt.toLowerCase() === 'dark' || scaredPrompt.toLowerCase() === 'bees') {
       alert(scaredCorrectAnswer + scaredPrompt + '.');
       console.log(scaredCorrectAnswer + scaredPrompt + '.');
       userScore++;

@@ -5,6 +5,12 @@
  text-indent: 30px;
  border-radius: 25px;
 }
+li {
+  color: white;
+ background-color: rgba(76, 60, 90, 0.6);
+ text-indent: 30px;
+ border-radius: 25px;
+}
 h4 {
   color: cornsilk;
   background-color: maroon;
