@@ -5,12 +5,12 @@ function colorCobalt () {
   var cobaltQuestionYes = 'That\'s right! Colbalt was the color of James\' truck! You deserve MHANY KITTEHS!';
   var cobaltQuestionNo = 'Well.... I guess if you remembered that the truck was blue we can let it slide.';
   var blueQuestion = prompt('Did you notce what color of blue was mentioned in the Bio?');
-  if (blueQuestion.toLowerCase() === 'yes' || blueQuestion.toLowerCase() === 'y') {
+  if (blueQuestion.toLowerCase() === 'yes' || blueQuestion.toLowerCase() === 'y' || blueQuestion.toLowerCase() === 'yup' || blueQuestion.toLowerCase() === 'mmhmm' || blueQuestion.toLowerCase() === 'totally' || blueQuestion.toLowerCase() === 'definetly') {
     console.log(cobaltQuestionYes);
     alert(cobaltQuestionYes);
     userScore++;
   }
-  else if (blueQuestion.toLowerCase() === 'no' || blueQuestion.toLowerCase() === 'n') {
+  else if (blueQuestion.toLowerCase() === 'no' || blueQuestion.toLowerCase() === 'n' || blueQuestion.toLowerCase() === 'nope' || blueQuestion.toLowerCase() === 'never' || blueQuestion.toLowerCase() === 'nah') {
     alert(cobaltQuestionNo);
     console.log(cobaltQuestionNo);
   }
@@ -25,12 +25,12 @@ function treeAlert() {
   var treeAlertYes = 'Many people like you and James have had a similar situation from having too much of a good thing.';
   var treeAlertNo = 'You must have had a good mentor to show you how to approach certain situations so to not be overwhelmed.';
   var treeQuestion = prompt('Did you ever have a hobby that was ruined for you?');
-  if (treeQuestion.toLowerCase() === 'yes' || treeQuestion.toLowerCase() === 'y') {
+  if (treeQuestion.toLowerCase() === 'yes' || treeQuestion.toLowerCase() === 'y' || treeQuestion.toLowerCase() === 'yup' || treeQuestion.toLowerCase() === 'mmhmm' || treeQuestion.toLowerCase() === 'totally' || treeQuestion.toLowerCase() === 'definetly') {
     alert(treeAlertYes);
     console.log(treeAlertYes);
     userScore++;
   }
-  else if (treeQuestion.toLowerCase() === 'no' || treeQuestion.toLowerCase() === 'n') {
+  else if (treeQuestion.toLowerCase() === 'no' || treeQuestion.toLowerCase() === 'n' || treeQuestion.toLowerCase() === 'nope' || treeQuestion.toLowerCase() === 'never' || treeQuestion.toLowerCase() === 'nah') {
     alert(treeAlertNo);
     console.log(treeAlertNo);
   }
@@ -45,12 +45,12 @@ function pictureAlert () {
   var pictureAlertYes = 'Well you Sir are mistaken! That is an actual plant that James helped grow.  For the past 6 years, James has been the grounds keeper as a side hustle for a very large event property in Woodinville, WA. ';
   var pictureAlertNo = 'Nice job! That is an actual plant that James helped grow.  For the past 6 years James has been the grounds keeper as a side hustle for a very large event property in Woodinville, WA. ';
   var pictureQuestion = prompt('Do you think the background picture of the webste is photoshopped?');
-  if (pictureQuestion.toLowerCase() === 'yes' || pictureQuestion.toLowerCase() === 'y') {
+  if (pictureQuestion.toLowerCase() === 'yes' || pictureQuestion.toLowerCase() === 'y' || pictureQuestion.toLowerCase() === 'yup' || pictureQuestion.toLowerCase() === 'mmhmm' || pictureQuestion.toLowerCase() === 'totally' || pictureQuestion.toLowerCase() === 'definetly') {
     alert(pictureAlertYes);
     console.log(pictureAlertYes);
     userScore++;
   }
-  else if (pictureQuestion.toLowerCase() === 'no' || pictureQuestion.toLowerCase() === 'n') {
+  else if (pictureQuestion.toLowerCase() === 'no' || pictureQuestion.toLowerCase() === 'n' || pictureQuestion.toLowerCase() === 'nope' || pictureQuestion.toLowerCase() === 'never' || pictureQuestion.toLowerCase() === 'nah') {
     alert(pictureAlertNo);
     console.log(pictureAlertNo);
   }
@@ -66,12 +66,12 @@ function googleAlert() {
   var googleAlertNo = 'There is a link to show what Google is all about. James sister actually worked in the Google Maps department but the first day she had to call James asking why her keyboard wasn\'t working.  Turns out her keyboard wasn\'t plugged in!';
   var googleMalfunction = 'ok.... seriously..... how...can.. you ... not ....answer YES OR NO!!!!!!!!! MALFUNCTION!!!!';
   var googleQuestion = prompt('It is no secret who James wants to work for, huh?');
-  if (googleQuestion.toLowerCase() === 'yes' || googleQuestion.toLowerCase() === 'y') {
+  if (googleQuestion.toLowerCase() === 'yes' || googleQuestion.toLowerCase() === 'y' || googleQuestion.toLowerCase() === 'yup' || googleQuestion.toLowerCase() === 'mmhmm' || googleQuestion.toLowerCase() === 'totally' || googleQuestion.toLowerCase() === 'definetly') {
     alert(googleAlertYes );
     console.log(googleAlertYes);
     userScore++;
   }
-  else if (googleQuestion.toLowerCase() === 'no' || googleQuestion.toLowerCase() === 'n') {
+  else if (googleQuestion.toLowerCase() === 'no' || googleQuestion.toLowerCase() === 'n' || googleQuestion.toLowerCase() === 'nope' || googleQuestion.toLowerCase() === 'never' || googleQuestion.toLowerCase() === 'nah') {
     alert(googleAlertNo);
     console.log(googleAlertNo);
   }
@@ -86,12 +86,12 @@ function christianQuestion() {
   var christianQuestionYes = 'It is true. James has read through the Bible at least 5 times! Too many!';
   var christianQuestionNo = 'He was rasied Baptist and went to a private christian school';
   var christianQuestion = prompt('Can you guess what religion James was raised in?');
-  if (christianQuestion.toLowerCase() === 'yes' || christianQuestion.toLowerCase() === 'y') {
+  if (christianQuestion.toLowerCase() === 'yes' || christianQuestion.toLowerCase() === 'y' || christianQuestion.toLowerCase() === 'yup' || christianQuestion.toLowerCase() === 'mmhmm' || christianQuestion.toLowerCase() === 'totally' || christianQuestion.toLowerCase() === 'definetly') {
     alert(christianQuestionYes );
     console.log(christianQuestionYes);
     userScore++;
   }
-  else if (christianQuestion.toLowerCase() === 'no' || christianQuestion.toLowerCase() === 'n') {
+  else if (christianQuestion.toLowerCase() === 'no' || christianQuestion.toLowerCase() === 'n' || christianQuestion.toLowerCase() === 'nope' || christianQuestion.toLowerCase() === 'never' || christianQuestion.toLowerCase() === 'nah') {
     alert(christianQuestionNo);
     console.log(christianQuestionNo);
   }
@@ -105,39 +105,45 @@ christianQuestion();
 As a developer, I want to add a sixth question to my guessing game that takes numeric input by prompting a user to guess a number (for instance, "What is my favorite number?" or "How many Pokémon did I catch yesterday?"), and indicates to the user whether the guess is 'too high' or 'too low', and gives the user exactly four opportunities to get the correct answer, so that my fancy programming skills are showcased.
 */
 function guessingGame() {
-  var numberGame = true;
+  // var numberGame = true;
   var correctAnswer = 'Thats RIGHT! Nice JOB PANCAKE MAN!';
   var wayTooLow = 'You are WAAAAAAAAAAAAAAAY t00 low!';
   var gettingCloser = 'Y0u are ge77ing cl0ser!';
   var tooHigh = 'Y0ur answ3r is t00 high!';
   var soCLose = 'Y0u sir ar3 s9 v3ry cl0s3!!!!!';
+  var standingClose = 'You are basically standing on the number user!';
   var numberTries = 0;
 
   while(numberTries < 4) {
-    var userNumber = prompt('I have a random question for you, Writer. How many grapefruits did I bare hand slice to perfection for my DAILY dose of VITAMIN C?! HURRY!!!!!!!!!');
+    var userNumber = prompt('I have a random question for you, Writer. Guessing between 0 and 1337, how many grapefruits did I bare hand slice to perfection for my DAILY dose of VITAMIN C?! HURRY!!!!!!!!!');
 
-    if(userNumber == 1337) {
+    if(userNumber === '1337') {
       alert(correctAnswer);
       console.log(correctAnswer);
       userScore++;
       break;
     }
-    else if(userNumber < 400) {
+    else if(userNumber <= '400') {
       alert(wayTooLow);
       console.log(wayTooLow);
       numberTries++;
     }
-    else if(userNumber < 800) {
+    else if(userNumber <= '800') {
       alert(gettingCloser);
       console.log(gettingCloser);
       numberTries++;
     }
-    else if(userNumber < 1000) {
+    else if(userNumber <= '1000') {
       alert(soCLose);
       console.log(soCLose);
       numberTries++;
     }
-    else if(userNumber > 1337) {
+    else if(userNumber < '1337') {
+      alert(standingClose);
+      console.log(standingClose);
+      numberTries++;
+    }
+    else if(userNumber > '1337') {
       alert(tooHigh);
       console.log(tooHigh);
       numberTries++;
@@ -145,10 +151,8 @@ function guessingGame() {
   }
 }
 guessingGame();
-/*
-As a developer, I want to add a seventh question to my guessing game that has multiple possible correct answers that are stored in an array. For instance, "Can you guess a state that I have lived in besides Washington?", so that even more of my programming skills are showcased. For now, I will structure this question so that the user has six tries to get a single correct answer, and upon using up those tries OR getting a correct answer, displays a message to the user indicating all of the possible correct answers.
-*/
-function scareGame () {
+
+function scareGame() {
   var scaredGame = true;
   var scaredCorrectAnswer = 'Nice! You got one! James is definetly scared of ';
   var scaredTries = 0;
@@ -162,11 +166,12 @@ function scareGame () {
       break;
     }
     else {
+      alert('James is not scared of that, please try again.')
       scaredTries++;
     }
   }
 }
 
 scareGame();
-
+alert('The user got ' + userScore + ' out of 7.');
 console.log('The user got ' + userScore + ' out of 7.');
